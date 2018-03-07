@@ -6,14 +6,43 @@
     android:layout_height="match_parent"
     tools:context="com.soialab.askaruly.uploadftp2.MainActivity">
 
+
+
+    <TextView
+        android:layout_width="50dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="status"
+        />
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Connect to FTP"
+        android:text="Upload to Server"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
         android:id="@+id/connectServer"
+        android:layout_marginTop="100dp"
         />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Download from Server"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/downloadServer"
+        android:layout_marginTop="150dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start python code"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/startServerCode"
+        android:layout_marginTop="200dp"
+        />
+
 
 </RelativeLayout>
 
